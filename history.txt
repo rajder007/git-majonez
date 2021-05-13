@@ -1,0 +1,653 @@
+    1  sudo apt install build-essential dkms linux-headers-$(uname-r)
+    2  sudo apt update
+    3  sudo apt install git
+    4  sudo apt install build-essential
+    5  sudo apt-get install manpages-dev
+    6  git --version
+    7  g++ --version
+    8  make --version
+    9  sudo apt update
+   10  sudo apt install software-properties-common apt-transport-https wget
+   11  wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+   12  sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+   13  sudo apt update
+   14  sudo apt install code
+   15  sudo apt-get install cmake
+   16  cmake --version
+   17  g++ -std=c++17 zadanie1.cpp -o zadanie1
+   18  cd ./desktop
+   19  ls
+   20  cd ./Desktop
+   21  g++ -std=c++17 zadanie1.cpp -o zadanie1
+   22  ./zadanie1
+   23  cmake ..
+   24  make
+   25  ./Tutorial
+   26  cd ./Desktop
+   27  ls
+   28  rm *
+   29  ls
+   30  pwd
+   31  ls
+   32  cd Music/
+   33  cd/..
+   34  cd ..
+   35  cd Documents
+   36  pwd
+   37  cd ~
+   38  cd -
+   39  cd Music/
+   40  cd ..
+   41  cd Desktop/
+   42  cd /
+   43  mkdir /coders/folder
+   44  mkdir ./coders/folder
+   45  cd coders
+   46  cd /coders
+   47  ls
+   48  pwd
+   49  cd /home
+   50  cd krzys/
+   51  pwd
+   52  cd /coders
+   53  ls
+   54  cd coders
+   55  mkdir ./folder
+   56  cd ..
+   57  cd /coders/folder
+   58  cd ./coders/folder
+   59  cd /
+   60  pwd
+   61  ls
+   62  cd ./home
+   63  cd ./krzys
+   64  pwd
+   65  cd ./coders
+   66  ls
+   67  ls -l
+   68  cd folder
+   69  ls
+   70  touch file.txt
+   71  touch file2.cpp
+   72  cp file.txt copy.txt
+   73  cp file.txt copy2.txt
+   74  mv file2.cpp file3.cpp
+   75  mkdir hello
+   76  mv file3.cpp hello
+   77  cp file.txt hello/plik.txt
+   78  move .. plik2.txt
+   79  move ../plik2.txt
+   80  mv file.txt ../plik2.txt
+   81  cd hello
+   82  ls
+   83  rm file3.cpp
+   84  rm plik.txt
+   85  cd ..
+   86  rm *
+   87  rmdir hello
+   88  cd /
+   89  ls -l
+   90  ls
+   91  ls ~
+   92  cd ~
+   93  pwd
+   94  ls -l
+   95  ls --help
+   96  ls bin
+   97  ls -h
+   98  ls -l
+   99  ls-lh
+  100  ls -lh
+  101  man ls
+  102  ls -lrSh
+  103  ls -l --list
+  104  man cp
+  105  man a++
+  106  g++ --help
+  107  man cd
+  108  cd --help
+  109  man cd
+  110  man 2 socket
+  111  man --help
+  112  man man
+  113  pwd
+  114  mkdir ./test
+  115  touch ./plik1.txt
+  116  touch ./plik2.txt
+  117  man pwd
+  118  pwd
+  119  mv *txt ./test
+  120  cp man
+  121  man cp
+  122  man cpdir
+  123  man cpdir 
+  124  ls
+  125  cp -R test coders
+  126  mkdir ./test/test
+  127  cp -R test coders
+  128  ls
+  129  cat coders/test/plik1.txt
+  130  more coders/test/plik1.txt
+  131  ls
+  132  cd coders/test
+  133  ls
+  134  more fraction.cpp
+  135  less fraction.cpp
+  136  wc fraction.cpp
+  137  echo hello
+  138  echo ~
+  139  echo $LD_LBRARY_PATH
+  140  man more
+  141  wc --help
+  142  wc fraction.cpp
+  143  wcho $PS1
+  144  echo $PS1
+  145  less ~/.bashrc
+  146  cd ~
+  147  ls -a
+  148  cd ./coders
+  149  touch newfile.txt
+  150  ls 
+  151  mv newfile.txt .newfile.txt
+  152  ls
+  153  ls -a
+  154  ./a.out
+  155  pwd
+  156  ls
+  157  cd coders
+  158  cd test
+  159  find -name *.cpp .
+  160  find -r *.cpp .
+  161  find . *.cpp
+  162  find . -name *.cpp
+  163  find . -name "*.cpp"
+  164  find / -iname sth
+  165  grep main *
+  166  grep -rn main *
+  167  grep -rni dupa *
+  168  clear
+  169  ls
+  170  cat fraction.cpp
+  171  clear
+  172  cat fraction.cpp > file.cpp
+  173  less file.cpp
+  174  echo Hello world! > file.cpp
+  175  cat file.cpp
+  176  echo Hello world123! >> file.cpp
+  177  cat file.cpp
+  178  echo -n Hello world123! >> file.cpp
+  179  cat file.cpp
+  180  clear
+  181  echo Hello Coders school >> plik2.cpp
+  182  bc= 4+5
+  183  bc < 4+5
+  184  bc < 4 + 5
+  185  echo 4+5 > calc.cpp
+  186  cat calc
+  187  bc < calc
+  188  bc < calc.cpp
+  189  bc << EOF
+  190  4+5
+  191  3-10
+  192  EOF
+  193  echo 4+5 | bc 
+  194  grep -rni hello *
+  195  grep -rni hello * | -n1
+  196  grep -rni hello * | head -n1
+  197  grep -rni main  * | head -n1
+  198  find / -name krzys
+  199  find / -name krzys > result.txt
+  200  cat result.txt 
+  201  find / -name krzys > result.txt 2> /dev/null
+  202  cat result.txt
+  203  ps
+  204  ps aux
+  205  man ps
+  206  ps au
+  207  top 
+  208  htop 
+  209  sudo apt update && sudo apt upgrade
+  210  apt install htop
+  211  sudo apt update && sudo apt upgrade
+  212  apt install htop
+  213  sudo apt-get update
+  214  apt install htop
+  215  sudo apt install htop
+  216  htop
+  217  vim
+  218  g++ file.cpp
+  219  ls
+  220  ./a.out 
+  221  vim
+  222  sudo apt install vim
+  223  vim
+  224  jobs
+  225  top
+  226  jobs
+  227  fg 3
+  228  jobs
+  229  fg2
+  230  fg 2
+  231  fg 1
+  232  jobs
+  233  fg 2
+  234  ./a.out &
+  235  ps
+  236  firefox
+  237  firefox &
+  238  ps
+  239  kill 6606
+  240  kill 6834
+  241  ps
+  242  kill 6587
+  243  ps
+  244  ps
+  245  htop
+  246  ps
+  247  top
+  248  ps
+  249  aux
+  250  ps aux
+  251  kill 5794
+  252  ps aux
+  253  kill -9 5848
+  254  ps a
+  255  ps
+  256  ps u
+  257  ps x
+  258  mkdir zad1
+  259  cd zad1
+  260  touch processes.txt
+  261  ps aux > processes.txt
+  262  cp processes.txt copy.txt
+  263  mkdir backup
+  264  mv copy.txt backup
+  265  wc -l processes.txt > selected.txt
+  266  grep -n /bin processes.txt >> selected.txt
+  267  history
+  268  cd ..
+  269  rm -r zad1
+  270  mkdir zad1
+  271  cd zad1
+  272  touch processes.txt
+  273  ps aux > processes.txt
+  274  cp processes.txt copy.txt
+  275  mkdir backup
+  276  mv copy.txt backup
+  277  wc -l processes.txt > selected.txt
+  278  grep -n /bin processes.txt >> selected.txt
+  279  history
+  280  history | tail -n10 > commands.txt
+  281  cat selected.txt commands.txt
+  282  cd ..
+  283  rm -r zad1
+  284  mkdir zad1
+  285  cd zad1
+  286  touch processes.txt
+  287  ps aux > processes.txt
+  288  cp processes.txt copy.txt
+  289  mkdir backup
+  290  mv copy.txt backup
+  291  wc -l processes.txt > selected.txt
+  292  grep -n /bin processes.txt >> selected.txt
+  293  history
+  294  history | tail -n11 > commands.txt
+  295  cat selected.txt commands.txt
+  296  ls
+  297  cd coders
+  298  ls
+  299  rm -r zad1
+  300  ls
+  301  mkdir zad1
+  302  cd zad1
+  303  touch processes.txt
+  304  ps aux > processes.txt
+  305  cp processes.txt copy.txt
+  306  mkdir backup
+  307  mv copy.txt backup
+  308  wc -l processes.txt > selected.txt
+  309  grep -n /bin processes.txt >> selected.txtls]
+  310  history
+  311  history | tail -n11 > commands.txt
+  312  cat selected.txt commands.txt
+  313  cd ..
+  314  rm -r zad1
+  315  mkdir zad1
+  316  cd zad1
+  317  touch processes.txt
+  318  ps aux > processes.txt
+  319  cp processes.txt copy.txt
+  320  mkdir backup
+  321  mv copy.txt backup
+  322  wc -l processes.txt > selected.txt
+  323  grep -n /bin processes.txt >> selected.txt
+  324  history
+  325  history | tail -n11 > commands.txt
+  326  cat selected.txt commands.txt
+  327  gedit &
+  328  vim script.sh
+  329  pwd
+  330  ls
+  331  cd coders/
+  332  vim script.sh
+  333  ./script.sh
+  334  ls -l
+  335  chmod +x script.sh
+  336  ls -l
+  337  ./script.sh
+  338  ls -l
+  339  ls hello
+  340  vim script.sh
+  341  ./script.sh
+  342  cd hello
+  343  ./script.sh
+  344  ../script.sh
+  345  vim script.sh
+  346  cd ..
+  347  vim script.sh
+  348  ./script.sh
+  349  ls
+  350  pwd
+  351  cd coders
+  352  mkdir repo
+  353  cd repo/
+  354  git init 
+  355  ls -la
+  356  touch file.txt
+  357  ls
+  358  git clone https://github.com/coders-school/linux.git
+  359  cd linux/
+  360  ls
+  361  cd coders
+  362  ls
+  363  cd linux
+  364  ls
+  365  cd repo
+  366  ls
+  367  cd linux
+  368  ls
+  369  git help
+  370  git status
+  371  echo Hello >> 01-nawigacja.md 
+  372  git status
+  373  git help status
+  374  git help clone
+  375  git config 
+  376  git config -l
+  377  git config --global -l
+  378  git config -l
+  379  git status
+  380  git add 01-nawigacja.md 
+  381  git status
+  382  git commit -m"description"
+  383  git config --global user.email "you@example.com"krzysztof.zaczyk7@gmail.corzysztof.zaczyk7@gmail.co
+  384  git config --global user.email "krzysztof.zaczyk7@gmail.co
+  385  "
+  386  git config --global user.email "krzysztof.zaczyk7@gmail.co
+  387  "
+  388  git config --global user.email "krzysztof.zaczyk7@gmail.co
+  389  m"
+  390  git config --global user.email "krzysztof.zaczyk7@gmail.com"
+  391  git config --global user.name "rajder007"
+  392  git commit -m"description"
+  393  git lock
+  394  git log
+  395  git status
+  396  echo Hello Coders School >> 02-operacje-na-plikach.md 
+  397  git status
+  398  echo Hello Coders School >> 03-bash.md 
+  399  rm 04-pomoc-argumenty.md 
+  400  git status
+  401  git add 04-pomoc-argumenty.md 02-operacje-na-plikach.md
+  402  git status
+  403  git commit -m"test"
+  404  git status
+  405  git log
+  406  git commit -m"nothing"
+  407  git add 03-bash.md 
+  408  git commit 
+  409  git add -p --help
+  410  git log 
+  411  git schow 
+  412  git show
+  413  git log
+  414  git show 834a07fa9efc2335efedd2df5a86126643c2953e
+  415  git statys
+  416  git status
+  417  echo Hello Coders School >> 08-bash.md 
+  418  git status
+  419  git diff
+  420  git dif
+  421  git diff
+  422  git add 08-bash.md 
+  423  git status 
+  424  git diff
+  425  echo Hello Coders School >> 07-bash.md 
+  426  git status
+  427  echo Hello Coders School >> 10-procesy.md 
+  428  git diff
+  429  git status
+  430  git diff --staged
+  431  git show
+  432  git status
+  433  git restore --staged 03-bash.md
+  434  git status
+  435  git show HEAD
+  436  git show HEAD^
+  437  git status
+  438  cat 03-bash.md 
+  439  git add 03
+  440  git add 03-bash.md 
+  441  git status
+  442  git checkout -- 10-procesy.md
+  443  git diff 
+  444  git status
+  445  git add q 
+  446  git add 07-bash.md 
+  447  git status
+  448  git restore --staged q
+  449  git restore --staged 08-bash.md
+  450  git status 
+  451  ls
+  452  git show
+  453  git log
+  454  git reset 834a07fa9efc2335efedd2df5a86126643c2953e
+  455  git log
+  456  git status
+  457  git reflog 
+  458  git reset 9aaa1dc
+  459  git log
+  460  git reflog
+  461  ls
+  462  rm q
+  463  git reflog
+  464  git status
+  465  git checkout -- q
+  466  git reset --hard
+  467  ls
+  468  rm b02-ps1.md
+  469  git reflog
+  470  ls
+  471  git checkout -- b02-ps1.md
+  472  ls
+  473  sudo apt-get update -y
+  474  sudo apt-get install -y gitk
+  475  gitk
+  476  gitk &
+  477  git log 
+  478  git log --pretty
+  479  git log --pretty=oneline
+  480  git log --pretty=oneline --graph
+  481  vscode
+  482  vsc
+  483  git status
+  484  git diff
+  485  git stash
+  486  git stash 
+  487  git stash drop 
+  488  git clean
+  489  git clean -f -d
+  490  git status
+  491  git log
+  492  git branch 
+  493  git branch  -a
+  494  git branch feature 
+  495  git branch 
+  496  git log 
+  497  git checkout -b featureB
+  498  git branch
+  499  git log
+  500  gitk &
+  501  git status
+  502  git checkout master
+  503  echo Hello >> 01-nawigacja.md 
+  504  git add 01-nawigacja.md 
+  505  git commit -m"Commit master1"
+  506  git checkout feature
+  507  cat 01-nawigacja.md 
+  508  git checkout master
+  509  cat 01-nawigacja.md 
+  510  git checkout feature 
+  511  echo Hello >> 02-operacje-na-plikach.md 
+  512  git add .
+  513  git commit -m"Commit feature 1"
+  514  echo Hello >> 03-bash.md 
+  515  git add .
+  516  git commit -m"comit feature 2"
+  517  git checkout master 
+  518  git merge feature
+  519  ls
+  520  cd coders
+  521  ls
+  522  cd rapo
+  523  cd repo
+  524  git status
+  525  ls
+  526  cd linux
+  527  ls
+  528  git log --pretty=online --graph
+  529  git log --pretty=oneline --graph
+  530  git checkout featureB
+  531  echo jo >> 11-zadanie.md 
+  532  git add .
+  533  git commit -m"Commit featureB 1"
+  534  gitk &
+  535  git checkout feature
+  536  git diff feature..featureB
+  537  git diff featureB..feature
+  538  git diff featureB..master
+  539  git checkout master
+  540  git log
+  541  git reset a1d185b1d1a6afb0503bf995e96375a7aee2703e
+  542  git reset --hard a1d185b1d1a6afb0503bf995e96375a7aee2703e
+  543  echo Coders School >> 02-operacje-na-plikach.md 
+  544  git add .
+  545  git commit -m"comit master 2"
+  546  git checkout feature
+  547  echo Coders School >> 02-operacje-na-plikach.md 
+  548  echo Hello Wolrd >> 01-nawigacja.md 
+  549  echo sth more >> 01-nawigacja.md 
+  550  git add .
+  551  git commit -m"Commit feature 3"
+  552  git diff feature..master
+  553  git checkout master
+  554  git q
+  555  gitk &
+  556  git merge feature
+  557  git status
+  558  q
+  559  gitk &
+  560  git merge --abort
+  561  git status
+  562  git merge feature
+  563  git status
+  564  git diff --staged
+  565  cat 01-nawigacja.md 
+  566  vim 01-nawigacja.md 
+  567  git mergetool
+  568  git status
+  569  git add 01-nawigacja.md
+  570  git status
+  571  git clean -f -d
+  572  git status
+  573  git commit 
+  574  git status
+  575  git log
+  576  git pull 
+  577  git push https://github.com/rajder007/linux.git
+  578  git pull https://github.com/rajder007/linux.git
+  579  git log
+  580  git show
+  581  git push https://github.com/rajder007/linux.git
+  582  git fetch
+  583  git remote -v
+  584  git remote add rajder https://github.com/rajder007/linux.git
+  585  git remote -v
+  586  git pull origin 
+  587  git pull rajder
+  588  git branch -a
+  589  git push rajder
+  590  ls
+  591  cd coders
+  592  ls
+  593  mkdir git-majonez
+  594  cd git-majonez/
+  595  git init
+  596  touch main.cpp
+  597  vim main.cpp
+  598  cd coders
+  599  ls
+  600  cd git-majonez
+  601  vim main.cpp
+  602  cat main.cpp
+  603  git add main.cpp
+  604  git status
+  605  git commit -m"Initial commit"
+  606  git status
+  607  vim main.cpp
+  608  git status
+  609  git commit -m"Farewell changed"
+  610  git add main.cpp
+  611  git status
+  612  git commit -m"Farewell changed"
+  613  git remote add origin https://github.com/rajder007/git-majonez.git
+  614  git push -u origin master
+  615  git branch 
+  616  git branch -a
+  617  git branch cs
+  618  git branch 
+  619  git log 
+  620  git branch cs
+  621  git checkout cs
+  622  git log 
+  623  git reset --hard e258cc4205de957cd12a3e31870e505dd4e14e9a
+  624  git log --pretty=oneline --graph 
+  625  reset --hard HEAD^
+  626  git log --pretty=oneline --graph 
+  627  reset --hard HEAD^
+  628  git reset HEAD^
+  629  git log --pretty=oneline --graph 
+  630  git show
+  631  git checkout 
+  632  git branch 
+  633  git status
+  634  cat main.cpp
+  635  vim main.cpp
+  636  git status
+  637  git add main.cpp
+  638  git commit -m"Greetings"
+  639  git status
+  640  git push origin cs
+  641  gitk &
+  642  git checkout master
+  643  git merge cs
+  644  git diff master..cs
+  645  git ststus
+  646  git status 
+  647  vim main.cpp
+  648  git status
+  649  git add .
+  650  git status
+  651  git commit 
+  652  git status
+  653  history > history.txt
